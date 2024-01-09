@@ -11,7 +11,7 @@ def parse():
     parser.add_argument('--hidden_size', type=int, default=64)
     parser.add_argument('--batch_size', type=int, default=1024,
                         help='Batch size.')
-    parser.add_argument('--epoch', type=int, default=5000,
+    parser.add_argument('--epoch', type=int, default=2000,
                         help='Number of epoch.')
     parser.add_argument('--dataset', nargs='?', default='instacart')
     parser.add_argument('--reg', type=float, default=1e-3,
