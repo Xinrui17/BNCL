@@ -4,9 +4,9 @@ Repo for paper [Robust Basket Recommendation via Noise-tolerated Graph Contrasti
 
 # Usage
 
-A small subset of the instacart dataset is given in this repo.
+An example dataset Instacart is given in this repo.
 
-> python main.py --dataset instcart_1
+> python main.py --dataset instacart
 
 # Citation
 
